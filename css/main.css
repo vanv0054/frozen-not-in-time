@@ -31,6 +31,9 @@ h1 {
 .banner {
   position: relative;
   background-image: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 1%, #d4fdff 1%, #d4fdff 2%);
+  border-top: solid 8px;
+  border-bottom: solid 8px;
+  border-color: #b3fbff;
   min-height: 500px;
 }
 
@@ -72,9 +75,16 @@ h1 {
   left: 80%;
   bottom: 3%;
   z-index: 2;
+  animation: drop-down .5s ease-in forwards;
 }
 
 @keyframes drop-down {
 
+  O% {
 
+  }
+
+  100% {
+
+  }
 }
