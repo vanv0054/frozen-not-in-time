@@ -87,7 +87,8 @@ h1 {
 }
 
 .banner-content {
-  animation: come-in 2s forwards;
+  animation: come-in 1s linear forwards;
+  animation-delay: 2s;
 }
 
 @keyframes cone-drop-down {
@@ -152,9 +153,11 @@ h1 {
 @keyframes come-in {
 
   0% {
-    opacity: 100%;
+    opacity: 0;
+    filter: blur(10px)
   }
   100% {
-    opacity: 0;
+    opacity: 1;
+    filter: blur(0);
   }
 }
