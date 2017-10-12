@@ -43,6 +43,8 @@ h1 {
   left: 79.6%;
   bottom: 66%;
   z-index: 5;
+  animation: cherry-drop-down .5s ease-in forwards;
+  animation-delay: 2s;
 }
 
 .vanilla-fudge {
@@ -51,6 +53,8 @@ h1 {
   left: 79.5%;
   bottom: 51.5%;
   z-index: 4;
+  animation: vanilla-drop-down .5s ease-in forwards;
+  animation-delay: 1.5s;
 }
 
 .chocolate-chip {
@@ -59,6 +63,8 @@ h1 {
   left: 80.3%;
   bottom: 38%;
   z-index: 3;
+  animation: choco-chip-drop-down .5s ease-in forwards;
+  animation-delay: 1s;
 }
 
 .mint-chip {
@@ -67,6 +73,8 @@ h1 {
   left: 80%;
   bottom: 22%;
   z-index: 1;
+  animation: mint-drop-down .5s ease-in forwards;
+  animation-delay: .5s;
 }
 
 .cone {
@@ -75,16 +83,71 @@ h1 {
   left: 80%;
   bottom: 3%;
   z-index: 2;
-  animation: drop-down .5s ease-in forwards;
+  animation: cone-drop-down .5s ease-in forwards;
 }
 
-@keyframes drop-down {
+@keyframes cone-drop-down {
 
-  O% {
-
+  0% {
+    bottom: 500px;
   }
 
   100% {
+    bottom: 0;
+  }
+}
 
+@keyframes mint-drop-down {
+
+  0% {
+    bottom: 500px;
+  }
+
+  100% {
+    bottom: 100px;
+  }
+
+}
+
+@keyframes choco-chip-drop-down {
+
+  0% {
+    bottom: 500px;
+  }
+
+  100% {
+    bottom: 180px;
+  }
+
+}
+
+@keyframes vanilla-drop-down {
+
+  0% {
+    bottom: 500px;
+  }
+
+  100% {
+    bottom: 250px;
+  }
+
+}
+
+@keyframes cherry-drop-down {
+
+  0% {
+    bottom: 500px;
+  }
+
+  100% {
+    bottom: 320px;
+  }
+
+}
+
+@keyframes show {
+
+  0% {
+    filter: blur();
   }
 }
