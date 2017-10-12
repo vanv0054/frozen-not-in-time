@@ -1,49 +1,74 @@
 html {
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #990073;
+  color: #c09;
+}
+
+.btn-ghost:hover {
+  background-color: #b3fbff;
+  border-color: #990073;
+  color: #c09;
+}
+
+p {
+  max-width: 19em;
+  color: #c09;
+  transform: rotate(-5deg);
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg);
 }
 
 .banner {
   position: relative;
-  background-image: repeating-linear-gradient(to right, #c9fcff, #b3fbff);
+  background-image: repeating-linear-gradient(to right, #d4fdff, #c9fcff);
+  min-height: 500px;
 }
 
 .cherry {
   position: absolute;
-  width: 20%;
-  left: 70%;
-  bottom: 20%;
-  z-index: 4;
-  animation: cherry 250ms ease-in forwards;
-  animation-delay: 750ms;
+  width: 14%;
+  left: 79.6%;
+  bottom: 66%;
+  z-index: 5;
 }
 
 .vanilla-fudge {
   position: absolute;
-  width: 20%;
-  left: 69%;
-  bottom: -20%;
-  z-index: 3;
-  animation: vanilla 250ms ease-in forwards;
-  animation-delay: 500ms;
+  width: 14%;
+  left: 79.5%;
+  bottom: 51.5%;
+  z-index: 4;
 }
 
 .chocolate-chip {
   position: absolute;
-  width: 20%;
-  left: 70%;
-  bottom: -60%;
-  z-index: 2;
-  animation: choc-chip 250ms ease-in forwards;
-  animation-delay: 250ms;
+  width: 14%;
+  left: 80.3%;
+  bottom: 38%;
+  z-index: 3;
 }
 
 .mint-chip {
   position: absolute;
-  width: 20%;
-  left: 69%;
-  bottom: -100%;
+  width: 14%;
+  left: 80%;
+  bottom: 22%;
   z-index: 1;
-  animation: mint 250ms ease-in forwards;
+}
+
+.cone {
+  position: absolute;
+  width: 14%;
+  left: 80%;
+  bottom: 3%;
+  z-index: 2;
 }
 
 @keyframes cherry {
@@ -53,34 +78,5 @@ html {
   }
   100% {
     bottom: 20%;
-  }
-}
-
-@keyframes vanilla {
-
-  0% {
-    bottom: 100%;
-  }
-  100% {
-    bottom: -20%;
-  }
-}
-@keyframes choc-chip {
-
-  0% {
-    bottom: 100%;
-  }
-  100% {
-    bottom: -60%;
-  }
-}
-
-@keyframes mint {
-
-  0% {
-    bottom: 100%;
-  }
-  100% {
-    bottom: -100%;
   }
 }
