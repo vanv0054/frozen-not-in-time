@@ -71,7 +71,7 @@ h1 {
   position: absolute;
   width: 14%;
   left: 80%;
-  bottom: 22%;
+  bottom: 23%;
   z-index: 1;
   animation: mint-drop-down .5s ease-in forwards;
   animation-delay: .5s;
@@ -88,6 +88,8 @@ h1 {
 
 .banner-content {
   animation: come-in 1s linear forwards;
+  transform-origin: left center;
+  transform: translate(100px, 0);
 }
 
 @keyframes cone-drop-down {
