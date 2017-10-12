@@ -1,5 +1,5 @@
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
 }
 
 .banner {
@@ -14,6 +14,7 @@ html {
   bottom: 20%;
   z-index: 4;
   animation: cherry 250ms ease-in forwards;
+  animation-delay: 750ms;
 }
 
 .vanilla-fudge {
@@ -23,6 +24,7 @@ html {
   bottom: -20%;
   z-index: 3;
   animation: vanilla 250ms ease-in forwards;
+  animation-delay: 500ms;
 }
 
 .chocolate-chip {
@@ -32,6 +34,7 @@ html {
   bottom: -60%;
   z-index: 2;
   animation: choc-chip 250ms ease-in forwards;
+  animation-delay: 250ms;
 }
 
 .mint-chip {
@@ -66,9 +69,9 @@ html {
 
   0% {
     bottom: 100%;
-    100% {
-      bottom: -60%;
-    }
+  }
+  100% {
+    bottom: -60%;
   }
 }
 
