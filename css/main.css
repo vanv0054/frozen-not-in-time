@@ -6,6 +6,7 @@ html {
   background-color: transparent;
   border-color: #990073;
   color: #c09;
+  text-shadow: 1px 1px 1px #990073;
 }
 
 .btn-ghost:hover {
@@ -18,11 +19,13 @@ p {
   max-width: 19em;
   color: #c09;
   transform: rotate(-5deg);
+  text-shadow: 1px 1px 1px #990073;
 }
 
 h1 {
   color: #990073;
   transform: rotate(-10deg);
+  text-shadow: 1px 1px 1px #990073;
 }
 
 .banner {
