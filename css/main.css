@@ -1,3 +1,83 @@
 html {
   font-family: 'Fredoka One', cursive;
 }
+
+.banner {
+  position: relative;
+  background-image: repeating-linear-gradient(to right, #c9fcff, #b3fbff);
+}
+
+.cherry {
+  position: absolute;
+  width: 20%;
+  left: 70%;
+  bottom: 20%;
+  z-index: 4;
+  animation: cherry 250ms ease-in forwards;
+}
+
+.vanilla-fudge {
+  position: absolute;
+  width: 20%;
+  left: 69%;
+  bottom: -20%;
+  z-index: 3;
+  animation: vanilla 250ms ease-in forwards;
+}
+
+.chocolate-chip {
+  position: absolute;
+  width: 20%;
+  left: 70%;
+  bottom: -60%;
+  z-index: 2;
+  animation: choc-chip 250ms ease-in forwards;
+}
+
+.mint-chip {
+  position: absolute;
+  width: 20%;
+  left: 69%;
+  bottom: -100%;
+  z-index: 1;
+  animation: mint 250ms ease-in forwards;
+}
+
+@keyframes cherry {
+
+  0% {
+    bottom: 100%;
+  }
+  100% {
+    bottom: 20%;
+  }
+}
+
+@keyframes vanilla {
+
+  0% {
+    bottom: 100%;
+  }
+  100% {
+    bottom: -20%;
+  }
+}
+@keyframes choc-chip {
+
+  0% {
+    bottom: 100%;
+    100% {
+      bottom: -60%;
+    }
+  }
+}
+
+@keyframes mint {
+
+  0% {
+    bottom: 100%;
+  }
+  100% {
+    bottom: -100%;
+  }
+}
