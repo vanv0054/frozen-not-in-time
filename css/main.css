@@ -86,6 +86,10 @@ h1 {
   animation: cone-drop-down .5s ease-in forwards;
 }
 
+.banner-content {
+  animation: come-in 2s forwards;
+}
+
 @keyframes cone-drop-down {
 
   0% {
@@ -145,9 +149,12 @@ h1 {
 
 }
 
-@keyframes show {
+@keyframes come-in {
 
   0% {
-    filter: blur();
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
   }
 }
