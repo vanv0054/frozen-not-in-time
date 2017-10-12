@@ -9,7 +9,7 @@ html {
 }
 
 .btn-ghost:hover {
-  background-color: #b3fbff;
+  background-color: #c9fcff;
   border-color: #990073;
   color: #c09;
 }
@@ -27,7 +27,7 @@ h1 {
 
 .banner {
   position: relative;
-  background-image: repeating-linear-gradient(to right, #d4fdff, #c9fcff);
+  background-image: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 1%, #d4fdff 1%, #d4fdff 2%);
   min-height: 500px;
 }
 
@@ -71,12 +71,7 @@ h1 {
   z-index: 2;
 }
 
-@keyframes cherry {
+@keyframes drop-down {
 
-  0% {
-    bottom: 100%;
-  }
-  100% {
-    bottom: 20%;
-  }
+
 }
