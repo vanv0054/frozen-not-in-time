@@ -6,7 +6,7 @@ html {
   background-color: transparent;
   border-color: #990073;
   color: #c09;
-  text-shadow: 1px 1px 1px #990073;
+  text-shadow: 1px 1px 1px #c9fcff;
 }
 
 .btn-ghost:hover {
@@ -30,7 +30,7 @@ h1 {
 
 .banner {
   position: relative;
-  background-image: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 1%, #d4fdff 1%, #d4fdff 2%);
+  background-image: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 1%, #d4fdff 1%, #d4fdff 2%);
   border-top: solid 8px;
   border-bottom: solid 8px;
   border-color: #b3fbff;
@@ -39,9 +39,9 @@ h1 {
 
 .cherry {
   position: absolute;
-  width: 14%;
-  left: 79.6%;
-  bottom: 66%;
+  width: 160px;
+  right: 100px;
+  bottom: 500px;
   z-index: 5;
   animation: cherry-drop-down .5s ease-in forwards;
   animation-delay: 2s;
@@ -49,9 +49,9 @@ h1 {
 
 .vanilla-fudge {
   position: absolute;
-  width: 14%;
-  left: 79.5%;
-  bottom: 51.5%;
+  width: 160px;
+  right: 100px;
+  bottom: 800px;
   z-index: 4;
   animation: vanilla-drop-down .5s ease-in forwards;
   animation-delay: 1.5s;
@@ -59,9 +59,9 @@ h1 {
 
 .chocolate-chip {
   position: absolute;
-  width: 14%;
-  left: 80.3%;
-  bottom: 38%;
+  width: 160px;
+  right: 90px;
+  bottom: 700px;
   z-index: 3;
   animation: choco-chip-drop-down .5s ease-in forwards;
   animation-delay: 1s;
@@ -69,9 +69,9 @@ h1 {
 
 .mint-chip {
   position: absolute;
-  width: 14%;
-  left: 80%;
-  bottom: 23%;
+  width: 160px;
+  right: 100px;
+  bottom: 600px;
   z-index: 1;
   animation: mint-drop-down .5s ease-in forwards;
   animation-delay: .5s;
@@ -79,9 +79,8 @@ h1 {
 
 .cone {
   position: absolute;
-  width: 14%;
-  left: 80%;
-  bottom: 3%;
+  width: 160px;
+  right: 100px;
   z-index: 2;
   animation: cone-drop-down .5s ease-in forwards;
 }
@@ -89,7 +88,7 @@ h1 {
 .banner-content {
   animation: come-in 1s linear forwards;
   transform-origin: left center;
-  transform: translate(100px, 0);
+  margin-left: 2.5em;
 }
 
 @keyframes cone-drop-down {
@@ -106,7 +105,7 @@ h1 {
 @keyframes mint-drop-down {
 
   0% {
-    bottom: 500px;
+    bottom: 600px;
   }
 
   100% {
@@ -118,11 +117,11 @@ h1 {
 @keyframes choco-chip-drop-down {
 
   0% {
-    bottom: 500px;
+    bottom: 700px;
   }
 
   100% {
-    bottom: 180px;
+    bottom: 170px;
   }
 
 }
@@ -130,11 +129,11 @@ h1 {
 @keyframes vanilla-drop-down {
 
   0% {
-    bottom: 500px;
+    bottom: 800px;
   }
 
   100% {
-    bottom: 250px;
+    bottom: 230px;
   }
 
 }
@@ -146,7 +145,7 @@ h1 {
   }
 
   100% {
-    bottom: 320px;
+    bottom: 308px;
   }
 
 }
